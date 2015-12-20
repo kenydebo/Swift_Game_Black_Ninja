@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4A9D621BEADE72008F7CD1 /* K_CloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A9D611BEADE72008F7CD1 /* K_CloudGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		BA4A9D641BEADF70008F7CD1 /* K_Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A9D631BEADF70008F7CD1 /* K_Cloud.swift */; settings = {ASSET_TAGS = (); }; };
+		BA4A9D6B1BEAED62008F7CD1 /* kd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA4A9D6A1BEAED62008F7CD1 /* kd.jpg */; settings = {ASSET_TAGS = (); }; };
+		BA4A9D6D1BEB0044008F7CD1 /* KWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A9D6C1BEB0044008F7CD1 /* KWallGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		BA4A9D6F1BEB004F008F7CD1 /* KWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A9D6E1BEB004F008F7CD1 /* KWall.swift */; settings = {ASSET_TAGS = (); }; };
+		BAD30F831BE52BEE00A77FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30F821BE52BEE00A77FAB /* AppDelegate.swift */; };
+		BAD30F871BE52BEE00A77FAB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30F861BE52BEE00A77FAB /* GameScene.swift */; };
+		BAD30F891BE52BEE00A77FAB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30F881BE52BEE00A77FAB /* GameViewController.swift */; };
+		BAD30F8C1BE52BEE00A77FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD30F8A1BE52BEE00A77FAB /* Main.storyboard */; };
+		BAD30F8E1BE52BEE00A77FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD30F8D1BE52BEE00A77FAB /* Assets.xcassets */; };
+		BAD30F911BE52BEE00A77FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD30F8F1BE52BEE00A77FAB /* LaunchScreen.storyboard */; };
+		BAD30F9C1BE52BEF00A77FAB /* Black_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30F9B1BE52BEF00A77FAB /* Black_NinjaTests.swift */; };
+		BAD30FA71BE52BEF00A77FAB /* Black_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30FA61BE52BEF00A77FAB /* Black_NinjaUITests.swift */; };
+		BAD30FB51BE536A900A77FAB /* K_MovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30FB41BE536A900A77FAB /* K_MovingGround.swift */; settings = {ASSET_TAGS = (); }; };
+		BAD30FB71BE5501900A77FAB /* K_Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30FB61BE5501900A77FAB /* K_Hero.swift */; settings = {ASSET_TAGS = (); }; };
+		BAD30FB91BE5C18E00A77FAB /* K_Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD30FB81BE5C18E00A77FAB /* K_Constants.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAD30F981BE52BEF00A77FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD30F771BE52BEE00A77FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD30F7E1BE52BEE00A77FAB;
+			remoteInfo = "Black Ninja";
+		};
+		BAD30FA31BE52BEF00A77FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD30F771BE52BEE00A77FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD30F7E1BE52BEE00A77FAB;
+			remoteInfo = "Black Ninja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA4A9D611BEADE72008F7CD1 /* K_CloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_CloudGenerator.swift; sourceTree = "<group>"; };
+		BA4A9D631BEADF70008F7CD1 /* K_Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_Cloud.swift; sourceTree = "<group>"; };
+		BA4A9D6A1BEAED62008F7CD1 /* kd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kd.jpg; sourceTree = "<group>"; };
+		BA4A9D6C1BEB0044008F7CD1 /* KWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWallGenerator.swift; sourceTree = "<group>"; };
+		BA4A9D6E1BEB004F008F7CD1 /* KWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWall.swift; sourceTree = "<group>"; };
+		BAD30F7F1BE52BEE00A77FAB /* Black Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD30F821BE52BEE00A77FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAD30F861BE52BEE00A77FAB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BAD30F881BE52BEE00A77FAB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BAD30F8B1BE52BEE00A77FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD30F8D1BE52BEE00A77FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD30F901BE52BEE00A77FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD30F921BE52BEE00A77FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD30F971BE52BEF00A77FAB /* Black NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD30F9B1BE52BEF00A77FAB /* Black_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_NinjaTests.swift; sourceTree = "<group>"; };
+		BAD30F9D1BE52BEF00A77FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD30FA21BE52BEF00A77FAB /* Black NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black NinjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD30FA61BE52BEF00A77FAB /* Black_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_NinjaUITests.swift; sourceTree = "<group>"; };
+		BAD30FA81BE52BEF00A77FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD30FB41BE536A900A77FAB /* K_MovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_MovingGround.swift; sourceTree = "<group>"; };
+		BAD30FB61BE5501900A77FAB /* K_Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_Hero.swift; sourceTree = "<group>"; };
+		BAD30FB81BE5C18E00A77FAB /* K_Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD30F7C1BE52BEE00A77FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30F941BE52BEF00A77FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30F9F1BE52BEF00A77FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4A9D661BEADFBA008F7CD1 /* Cloud Generation */ = {
+			isa = PBXGroup;
+			children = (
+				BA4A9D611BEADE72008F7CD1 /* K_CloudGenerator.swift */,
+				BA4A9D631BEADF70008F7CD1 /* K_Cloud.swift */,
+			);
+			name = "Cloud Generation";
+			sourceTree = "<group>";
+		};
+		BA4A9D671BEAEA6E008F7CD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4A9D6A1BEAED62008F7CD1 /* kd.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA4A9D701BEB0057008F7CD1 /* Wall Generation */ = {
+			isa = PBXGroup;
+			children = (
+				BA4A9D6C1BEB0044008F7CD1 /* KWallGenerator.swift */,
+				BA4A9D6E1BEB004F008F7CD1 /* KWall.swift */,
+			);
+			name = "Wall Generation";
+			sourceTree = "<group>";
+		};
+		BAD30F761BE52BEE00A77FAB = {
+			isa = PBXGroup;
+			children = (
+				BAD30F811BE52BEE00A77FAB /* Black Ninja */,
+				BAD30F9A1BE52BEF00A77FAB /* Black NinjaTests */,
+				BAD30FA51BE52BEF00A77FAB /* Black NinjaUITests */,
+				BAD30F801BE52BEE00A77FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD30F801BE52BEE00A77FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD30F7F1BE52BEE00A77FAB /* Black Ninja.app */,
+				BAD30F971BE52BEF00A77FAB /* Black NinjaTests.xctest */,
+				BAD30FA21BE52BEF00A77FAB /* Black NinjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD30F811BE52BEE00A77FAB /* Black Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				BA4A9D671BEAEA6E008F7CD1 /* Supporting Files */,
+				BAD30F821BE52BEE00A77FAB /* AppDelegate.swift */,
+				BAD30F861BE52BEE00A77FAB /* GameScene.swift */,
+				BAD30FB81BE5C18E00A77FAB /* K_Constants.swift */,
+				BAD30F881BE52BEE00A77FAB /* GameViewController.swift */,
+				BAD30F8A1BE52BEE00A77FAB /* Main.storyboard */,
+				BAD30F8D1BE52BEE00A77FAB /* Assets.xcassets */,
+				BAD30F8F1BE52BEE00A77FAB /* LaunchScreen.storyboard */,
+				BAD30F921BE52BEE00A77FAB /* Info.plist */,
+				BAD30FB41BE536A900A77FAB /* K_MovingGround.swift */,
+				BAD30FB61BE5501900A77FAB /* K_Hero.swift */,
+				BA4A9D661BEADFBA008F7CD1 /* Cloud Generation */,
+				BA4A9D701BEB0057008F7CD1 /* Wall Generation */,
+			);
+			path = "Black Ninja";
+			sourceTree = "<group>";
+		};
+		BAD30F9A1BE52BEF00A77FAB /* Black NinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD30F9B1BE52BEF00A77FAB /* Black_NinjaTests.swift */,
+				BAD30F9D1BE52BEF00A77FAB /* Info.plist */,
+			);
+			path = "Black NinjaTests";
+			sourceTree = "<group>";
+		};
+		BAD30FA51BE52BEF00A77FAB /* Black NinjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD30FA61BE52BEF00A77FAB /* Black_NinjaUITests.swift */,
+				BAD30FA81BE52BEF00A77FAB /* Info.plist */,
+			);
+			path = "Black NinjaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD30F7E1BE52BEE00A77FAB /* Black Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD30FAB1BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black Ninja" */;
+			buildPhases = (
+				BAD30F7B1BE52BEE00A77FAB /* Sources */,
+				BAD30F7C1BE52BEE00A77FAB /* Frameworks */,
+				BAD30F7D1BE52BEE00A77FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Ninja";
+			productName = "Black Ninja";
+			productReference = BAD30F7F1BE52BEE00A77FAB /* Black Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAD30F961BE52BEF00A77FAB /* Black NinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD30FAE1BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black NinjaTests" */;
+			buildPhases = (
+				BAD30F931BE52BEF00A77FAB /* Sources */,
+				BAD30F941BE52BEF00A77FAB /* Frameworks */,
+				BAD30F951BE52BEF00A77FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD30F991BE52BEF00A77FAB /* PBXTargetDependency */,
+			);
+			name = "Black NinjaTests";
+			productName = "Black NinjaTests";
+			productReference = BAD30F971BE52BEF00A77FAB /* Black NinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAD30FA11BE52BEF00A77FAB /* Black NinjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD30FB11BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black NinjaUITests" */;
+			buildPhases = (
+				BAD30F9E1BE52BEF00A77FAB /* Sources */,
+				BAD30F9F1BE52BEF00A77FAB /* Frameworks */,
+				BAD30FA01BE52BEF00A77FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD30FA41BE52BEF00A77FAB /* PBXTargetDependency */,
+			);
+			name = "Black NinjaUITests";
+			productName = "Black NinjaUITests";
+			productReference = BAD30FA21BE52BEF00A77FAB /* Black NinjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD30F771BE52BEE00A77FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kowries.inc;
+				TargetAttributes = {
+					BAD30F7E1BE52BEE00A77FAB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BAD30F961BE52BEF00A77FAB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BAD30F7E1BE52BEE00A77FAB;
+					};
+					BAD30FA11BE52BEF00A77FAB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BAD30F7E1BE52BEE00A77FAB;
+					};
+				};
+			};
+			buildConfigurationList = BAD30F7A1BE52BEE00A77FAB /* Build configuration list for PBXProject "Black Ninja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD30F761BE52BEE00A77FAB;
+			productRefGroup = BAD30F801BE52BEE00A77FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD30F7E1BE52BEE00A77FAB /* Black Ninja */,
+				BAD30F961BE52BEF00A77FAB /* Black NinjaTests */,
+				BAD30FA11BE52BEF00A77FAB /* Black NinjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD30F7D1BE52BEE00A77FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4A9D6B1BEAED62008F7CD1 /* kd.jpg in Resources */,
+				BAD30F911BE52BEE00A77FAB /* LaunchScreen.storyboard in Resources */,
+				BAD30F8E1BE52BEE00A77FAB /* Assets.xcassets in Resources */,
+				BAD30F8C1BE52BEE00A77FAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30F951BE52BEF00A77FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30FA01BE52BEF00A77FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD30F7B1BE52BEE00A77FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD30FB51BE536A900A77FAB /* K_MovingGround.swift in Sources */,
+				BA4A9D641BEADF70008F7CD1 /* K_Cloud.swift in Sources */,
+				BA4A9D6D1BEB0044008F7CD1 /* KWallGenerator.swift in Sources */,
+				BAD30FB71BE5501900A77FAB /* K_Hero.swift in Sources */,
+				BAD30F871BE52BEE00A77FAB /* GameScene.swift in Sources */,
+				BAD30F891BE52BEE00A77FAB /* GameViewController.swift in Sources */,
+				BAD30F831BE52BEE00A77FAB /* AppDelegate.swift in Sources */,
+				BA4A9D6F1BEB004F008F7CD1 /* KWall.swift in Sources */,
+				BA4A9D621BEADE72008F7CD1 /* K_CloudGenerator.swift in Sources */,
+				BAD30FB91BE5C18E00A77FAB /* K_Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30F931BE52BEF00A77FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD30F9C1BE52BEF00A77FAB /* Black_NinjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD30F9E1BE52BEF00A77FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD30FA71BE52BEF00A77FAB /* Black_NinjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD30F991BE52BEF00A77FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD30F7E1BE52BEE00A77FAB /* Black Ninja */;
+			targetProxy = BAD30F981BE52BEF00A77FAB /* PBXContainerItemProxy */;
+		};
+		BAD30FA41BE52BEF00A77FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD30F7E1BE52BEE00A77FAB /* Black Ninja */;
+			targetProxy = BAD30FA31BE52BEF00A77FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAD30F8A1BE52BEE00A77FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD30F8B1BE52BEE00A77FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD30F8F1BE52BEE00A77FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD30F901BE52BEE00A77FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD30FA91BE52BEF00A77FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAD30FAA1BE52BEF00A77FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD30FAC1BE52BEF00A77FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Black Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAD30FAD1BE52BEF00A77FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Black Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAD30FAF1BE52BEF00A77FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Black NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-NinjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Ninja.app/Black Ninja";
+			};
+			name = Debug;
+		};
+		BAD30FB01BE52BEF00A77FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-NinjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Ninja.app/Black Ninja";
+			};
+			name = Release;
+		};
+		BAD30FB21BE52BEF00A77FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Black NinjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-NinjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black Ninja";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAD30FB31BE52BEF00A77FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Black NinjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kowries.com.Black-NinjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black Ninja";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD30F7A1BE52BEE00A77FAB /* Build configuration list for PBXProject "Black Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD30FA91BE52BEF00A77FAB /* Debug */,
+				BAD30FAA1BE52BEF00A77FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD30FAB1BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD30FAC1BE52BEF00A77FAB /* Debug */,
+				BAD30FAD1BE52BEF00A77FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD30FAE1BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black NinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD30FAF1BE52BEF00A77FAB /* Debug */,
+				BAD30FB01BE52BEF00A77FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD30FB11BE52BEF00A77FAB /* Build configuration list for PBXNativeTarget "Black NinjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD30FB21BE52BEF00A77FAB /* Debug */,
+				BAD30FB31BE52BEF00A77FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD30F771BE52BEE00A77FAB /* Project object */;
+}
